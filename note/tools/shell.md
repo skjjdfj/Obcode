@@ -1,3 +1,8 @@
+---
+tags:
+  - 技巧
+  - shell
+---
 
 ## 反shell
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - 工具
+  - 指纹识别
+  - 信息收集
+---
 
 # 安装
 
@@ -11,7 +17,7 @@ Turtlera@htb[/htb]$ chmod +x ./nikto.pl
 
 # 指纹识别
 
-```shell-session
+```bash
 nikto -h inlanefreight.com -Tuning b
 ```
 

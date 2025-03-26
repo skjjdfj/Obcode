@@ -1,3 +1,8 @@
+---
+tags:
+  - rdp
+  - 技巧
+---
 
 **我使用的kali linux 2024.3的xfreerdp更新到3版本，需要使用xfreerdp3使用**
 

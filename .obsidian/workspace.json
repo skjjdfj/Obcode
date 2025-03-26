@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ecb9bf9291140e80",
+        "id": "77b91a7fa28d2fb1",
         "type": "tabs",
         "children": [
           {
-            "id": "d84cc1ab2999091f",
+            "id": "eb671919ddd11d0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/tools/xfreerdp.md",
+                "file": "note/tools/shell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "xfreerdp"
-            }
-          },
-          {
-            "id": "7a8c5e4dd19dd3a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/tools/ssh.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ssh"
+              "title": "shell"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,9 +52,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "note/tagnote/配置文件位置.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "配置文件位置 的大纲"
             }
           },
           {
@@ -78,10 +68,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#shell",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -99,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -119,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "note/服务/信息收集-WEB.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "信息收集-WEB 的反向链接列表"
             }
           },
           {
@@ -137,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "code/java/java-web.md",
+                "file": "note/服务/信息收集-WEB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "java-web 的出链列表"
+              "title": "信息收集-WEB 的出链列表"
             }
           },
           {
@@ -151,8 +143,10 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
+                "sortOrder": "alphabetical",
+                "useHierarchy": false,
+                "showSearch": true,
+                "searchQuery": "shell"
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -164,18 +158,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/vuln/命令注入.md"
+                "file": "note/tagnote/反序列化.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "命令注入 的大纲"
+              "title": "反序列化 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,49 +184,50 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7a8c5e4dd19dd3a3",
+  "active": "eb671919ddd11d0e",
   "lastOpenFiles": [
-    "note/tools/gobuster.md",
-    "note/tools/tools-readme.md",
-    "note/ReadMe.md",
-    "note/服务/SMB.md",
-    "note/服务/service-readme.md",
-    "note/tools/john_the_riper.md",
-    "note/tools/ssh.md",
-    "note/tools/xfreerdp.md",
-    "witeboard/windows提权.canvas",
-    "witeboard/linux提权.canvas",
-    "().md",
-    "witeboard/windows提权二.canvas",
-    "note/tools/CURL.md",
-    "note/tools/transfer.md",
-    "language/java/java-web/servlet.md",
-    "Templates",
-    "note/tools/remmina.md",
-    "note/tools/Nmap.md",
-    "note/缓解措施/unser.md",
+    "note/tagnote/docker逃逸.md",
+    "note/tools/shell.md",
+    "note/tagnote/端口转发.md",
+    "note/tagnote/File-include.md",
+    "note/tagnote/配置文件位置.md",
+    "note/tagnote/SSRF.md",
+    "note/tagnote/tabby.md",
     "IDEA/vscode.md",
-    "IDEA/idea.md",
-    "note/tools/FFUF.md",
+    "IDEA/obsidian.md",
+    "picture/other",
+    "picture/未命名.md",
+    "picture/other/Pasted image 20250320102530.png",
+    "note/tools/Nikto.md",
+    "note/tagnote/whatweb.md",
+    "note/tools/Wafw00f.md",
+    "witeboard/windows提权.canvas",
+    "note/tagnote/对于kali linux终端配置的研究.md",
+    "note/tagnote/tmux.md",
+    "note/tagnote/高级SQL注入.md",
+    "note/tagnote/端口敲门.md",
+    "note/tagnote/vm虚拟机快照配置.md",
+    "note/tagnote/反序列化.md",
+    "note/tagnote/oauth漏洞.md",
+    "note/tagnote/sql注入.md",
+    "note/tools/sqlmap.md",
+    "note/tagnote/SQLi.md",
+    "note/tagnote/Tshark.md",
+    "note/tools/tcpdump.md",
+    "note/tagnote/TryHackMe检修openvpn备忘.md",
+    "witeboard/linux提权.canvas",
+    "hvv",
+    "note/tagnote",
+    "language/java/spring-boot/sprintboot.canvas",
+    "应急响应",
+    "witeboard/windows提权二.canvas",
+    "Templates",
     "picture/HTB",
     "picture/THM",
     "wp/THM",
-    "wp/未命名.md",
-    "未命名",
     "wp/HTB",
     "wp",
-    "picture",
     "note/picture/http走私/Snipaste_2024-10-16_21-31-39.png",
-    "other/时间分配.md",
-    "other/日志.md",
-    "other/大任务.md",
-    "language/java/spring-boot/sprintboot.canvas",
-    "language/java/spring-boot/SpringBoot.md",
-    "web/ctf-readme.md",
-    "IDEA",
-    "web/反序列化.md",
-    "language/java/spring-boot",
-    "language/java/java-readme.md",
     "网络设备.canvas",
     "witeboard/vuln.canvas",
     "witeboard/工具.canvas",
